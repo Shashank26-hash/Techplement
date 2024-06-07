@@ -1,0 +1,23 @@
+/* client/src/index.css */
+body {
+    font-family: 'Arial', sans-serif;
+    display:flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .dark-theme {
+    background-color: #282c34;
+    color: #ffffff;
+  }
+  
+  .light-theme {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  

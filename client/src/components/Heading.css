@@ -1,0 +1,43 @@
+/* client/src/components/Heading.css */
+.heading-container {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top:0px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .heading {
+    font-size: 32px;
+    margin: 0;
+  }
+  
+  .theme-toggle-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #61dafb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .theme-toggle-button:hover {
+    background-color: #21a1f1;
+    transform: scale(1.05);
+  }
+  
+  .light-theme .heading-container {
+    background-color: #f0f0f0;
+    color: #000;
+  }
+  
+  .dark-theme .heading-container {
+    background-color: #3b3f47;
+    color: #fff;
+  }
+  
