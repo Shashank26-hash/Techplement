@@ -15,7 +15,7 @@ const Quote = () => {
   const fetchQuote = async (authorName) => {
     setLoading(true); 
     try {
-      const response = await axios.get('http://localhost:5000/api/quote', {
+      const response = await axios.get('https://quotesapp-l33h.onrender.com/api/quote', {
         params: { author: authorName }
       });
       setQuote(response.data.content);
